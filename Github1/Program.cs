@@ -20,6 +20,24 @@ namespace Github1
             Console.WriteLine("|           Aditya Wijaya         |");
             Console.WriteLine("|_________________________________|");
 
+            Console.WriteLine("\t\t\tAplikasi Calculator  C#\r");
+            Console.WriteLine("\t\t\t-------------------------\r");
+            Console.WriteLine("\t\t\tkalkulator console\n");
+
+            Console.WriteLine("\t\t\tEnter first number\n");
+            firstnum = Double.Parse(Console.ReadLine());
+
+            Console.WriteLine("\t\t\tSelect an operator: (+, -, *, /, %,)\n");
+            ops = Console.ReadLine();
+
+            Console.WriteLine("\t\t\tEnter second number\n");
+            secondnum = Double.Parse("\t\t\t" + Console.ReadLine());
+
+            if (ops == "+")
+            {
+                answer = firstnum + secondnum;
+                Console.Write("\n" + answer);
+            }
         }
 
     }
