@@ -53,6 +53,11 @@ namespace Github1
                 answer = firstnum / secondnum;
                 Console.Write("\n" + answer);
             }
+            else if (ops == "%")
+            {
+                answer = firstnum % secondnum;
+                Console.Write("\n" + answer);
+            }
         }
 
     }
