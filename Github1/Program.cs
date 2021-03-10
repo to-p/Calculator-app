@@ -58,6 +58,12 @@ namespace Github1
                 answer = firstnum % secondnum;
                 Console.Write("\n" + answer);
             }
+            {
+                answer = firstnum % secondnum;
+                Console.Write("\n" + answer);
+            }
+            Console.Write("\n" + "\t\t\t\t\t\t\t\tPress any key to exit>>>\n");
+            Console.ReadKey();
         }
 
     }
